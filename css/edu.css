@@ -1,0 +1,68 @@
+h1{
+    margin-top: 40px;
+    color: teal;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+span{
+    font-weight: 600;
+    font-size: larger;
+    color:  teal;
+}
+
+.btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    width: 150px; 
+    height: 50px;
+    border: 1px grey solid;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn:hover{
+    background-color: teal; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    color: honeydew;
+    }
+
+.btn-default{
+     border: 1px grey solid;
+    border: ivory;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    width: 150px; 
+    height: 50px;
+    background-color: teal; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    color: honeydew;
+    border-radius: 10px;
+    outline: none;
+}
+
+  .container{
+      color: teal;
+  }  
+
+/* .container:hover{ */
+    /* color:  teal; */
+/* } */
+/*  */
+
+/* .btn-default:hover{ */
+    /* background-color:teal;  */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-size: larger; */
+    /* font-weight: 700; */
+    /* color: honeydew; */
+/* } */
+
+
+

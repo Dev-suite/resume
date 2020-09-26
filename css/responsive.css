@@ -1,0 +1,181 @@
+
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    main .container .col-md-11 .animated-info {
+        position: absolute;
+        width: 100px;
+        left: 1px;
+    }
+
+    .animated-item {
+        position: absolute;
+        width: 100px;
+        font-size: 30px;
+    }
+
+    .animated{
+        margin-bottom: 270px;
+    }
+
+
+    #work .col-md-8 img,
+    .pic .col-md-7 img,
+    .ease .col-md-5 img,
+    .col-md-7 img,
+    .speed .col-md-12 img,
+    .boost .col-md-8 img,
+    main .col-md-1 img,
+    .text img,
+    .container-def row {
+        width: 100% !important;
+        left: 20px;
+    }
+
+    .container-def img {
+        width: 100%;
+    }
+
+    #work .col-md-4 {
+        padding-left: 25px;
+    }
+
+    main .container .row .col-md-11 a input{
+        margin-top: 100px;
+    }
+
+    .img-comp img{
+        margin-top: 100px;
+        border: none;
+    }
+
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+    main .container .col-md-11 .animated-info {
+        position: absolute;
+        width: 100px;
+        left: 1px;
+    }
+
+    .animated-item {
+        position: absolute;
+        width: 100px;
+        font-size: 30px;
+    }
+
+    .animated{
+        margin-bottom: 270px;
+    }
+
+
+    #work .col-md-8 img,
+    .pic .col-md-7 img,
+    .ease .col-md-5 img,
+    .col-md-7 img,
+    .speed .col-md-12 img,
+    .boost .col-md-8 img,
+    main .col-md-1 img,
+    .text img,
+    .container-def row {
+        width: 100% !important;
+        left: 20px;
+    }
+
+    .container-def img {
+        width: 100%;
+    }
+
+    #work .col-md-4 {
+        padding-left: 25px;
+    }
+
+    main .container .row .col-md-11 a input{
+        margin-top: 100px;
+    }
+
+    .img-comp img{
+        margin-top: 100px;
+    }
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px) {
+    /* some CSS here */
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* some CSS here */
+}
+
+/* #### iPhone 5 Portrait or Landscape #### */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* some CSS here */
+}
+
+/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+    /* some CSS here */
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    main .container .col-md-11 .animated-info {
+        position: absolute;
+        width: 100px;
+        left: 1px;
+    }
+
+    .animated-item {
+        position: absolute;
+        width: 100px;
+        font-size: 30px;
+    }
+
+    .animated{
+        margin-bottom: 270px;
+        width: 100%;
+    }
+
+    .col-md-11{
+        margin-bottom: 200px;
+    }
+
+
+    #work .col-md-8 img,
+    .pic .col-md-7 img,
+    .ease .col-md-5 img,
+    .col-md-7 img,
+    .speed .col-md-12 img,
+    .boost .col-md-8 img,
+    main .col-md-1 img,
+    .text img,
+    .container-def row {
+        width: 100% !important;
+        left: 20px;
+    }
+
+    .container-def img {
+        width: 100%;
+    }
+
+    #work .col-md-4 {
+        padding-left: 25px;
+    }
+
+    main .container .row .col-md-11 a input{
+        margin-top: 100px;
+    }
+
+    .img-comp img{
+        width: 100%;
+        border: 1px solid;
+    }
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px) {
+    /* some CSS here */
+}

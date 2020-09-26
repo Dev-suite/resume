@@ -1,0 +1,487 @@
+html {
+  scroll-behavior: smooth;
+}
+
+main .container{
+  margin-bottom: 110px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 1000vh;
+}
+
+/* CSS for Main */
+
+
+
+.container-def {
+  margin-right: 30px !important;
+  margin-left: 30px !important;
+  padding: 60px !important;
+  margin-top: 35px;
+  padding-right: 30px;
+
+}
+
+.container-def .row a img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+#navbar {
+  background-color: #3983fa;
+  height: 70px;
+  width: 100%;
+  z-index: 1;
+  opacity: 20;
+}
+
+.brand a img {
+  float: left;
+  padding-top: 10px;
+
+}
+
+.img-comp img {
+  float: right;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+.navbar-nav {
+  float: right !important;
+  padding-top: 20px !important;
+  padding-left: 200px !important;
+}
+
+.navbar-nav a:hover {
+  color: #E91E63 !important;
+}
+
+/* CSS for Get Started button */
+.start input[type="button"] {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  background-color: crimson;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin-top: 320px;
+  color: white;
+  transition: all 1s;
+  margin-right: 40px;
+  float: left;
+  font-weight: 600;
+}
+
+
+
+input[type="button"]:hover {
+
+  transform: scale(1.2, 1.2);
+
+}
+
+
+/* animated text CSS*/
+
+.animated {
+  position: relative;
+  top: 150px;
+}
+.eye-text {
+  position: absolute;
+  left: 0;
+  right: 100px;
+  top: 70px;
+  display: inline-block;
+}
+
+.animated-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+  min-width: 260px;
+  position: absolute;
+  right: 60%;
+}
+
+.animated-item {
+  color: #3983fa;
+  ;
+}
+
+.animated-item {
+  font-size: 38px;
+  line-height: inherit;
+  display: block;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 270px;
+  bottom: 100px;
+  animation: BottomTotop 6s linear infinite 0s;
+}
+
+.animated-item:nth-child(2n+2) {
+  animation-delay: 2s;
+}
+
+.animated-item:nth-child(3n+3) {
+  animation-delay: 4s;
+}
+
+
+@keyframes BottomTotop {
+  0% {
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  10% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  25% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  30% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/* CSS for NavBar Links */
+
+.signup-link,
+.resume-link,
+.template-link {
+
+  margin-right: 20px;
+}
+
+
+
+#Templates h1 {
+  padding-top: 50px;
+  text-align: center;
+  margin-top: 30px;
+  color: #3983fa;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+#Templates h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.img-temp {
+  max-width: 500px;
+  max-height: 400px;
+
+
+}
+
+
+/* CSS for footer */
+
+footer {
+  height: 160px;
+  background-color: #fafafb;
+}
+
+footer p {
+  float: left;
+  margin-left: 30px;
+  margin-top: 42px;
+  color: black;
+  font-weight: 500;
+}
+
+.social-links {
+  float: right;
+}
+
+.social-links p {
+  padding-top: 10px;
+}
+
+hr {
+  width: 100% !important;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 30px;
+
+}
+
+.breadcrumb {
+  background-color: #fafafb !important;
+}
+
+.breadcrumb li {
+  color: black;
+  font-weight: 500;
+}
+
+.breadcrumb li:hover {
+  color: #3983fa;
+}
+
+.breadcrumb-item a {
+  color: black !important;
+  font-weight: 500;
+}
+
+
+.breadcrumb-item a:hover {
+  color: #3983fa !important;
+}
+
+.social-links i {
+  color: #333;
+  font-size: 20px;
+}
+
+.content h4,
+h3 {
+  text-align: center;
+}
+
+
+
+.content h4 {
+  color: #3983fa;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.content h3 {
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 90px;
+}
+
+#how-it-work {
+  margin-top: 90px;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 2px 15px rgb(0, 0, 0, 0.1);
+  border: none;
+}
+
+
+.card i {
+  margin: auto;
+  margin-top: 20px;
+  color: crimson !important;
+}
+
+.card-deck {
+  padding: 50px;
+}
+
+.card {
+  height: 270px;
+}
+
+.card i {
+  font-size: 50px;
+}
+
+
+.card-title {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 25px, 0, 20;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 2px 15px rgb(0, 0, 0, 0.1);
+  color: #333;
+  display: block;
+  margin: 30px auto 0;
+  max-width: 320px;
+  padding: 30px 16px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.gets {
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+.gets button {
+  font-size: 16px;
+  font-weight: 800px;
+  height: 45px;
+  line-height: 48px;
+  width: 250px;
+  border: none;
+  background-color: crimson;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  outline-style: none;
+  margin-bottom: 80px;
+}
+
+
+
+
+#work h2 {
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  margin-top: 450px;
+}
+
+#work p {
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+
+.pic {
+  padding-top: 90px;
+}
+
+.pic h2 {
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  margin-top: 200px;
+}
+
+.pic p {
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+
+.ease {
+  padding-top: 90px;
+}
+
+.ease h2 {
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.ease p {
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+
+.speed {
+  padding-top: 90px;
+}
+
+.speed h2 {
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.speed p {
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+
+.im {
+  margin: auto;
+  text-align: center;
+}
+
+.boost {
+  padding-top: 130px;
+}
+
+.boost h2 {
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  margin-top: 200px;
+}
+
+.boost p {
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+
+.try h3 {
+  color: #fff;
+  padding-top: 70px;
+}
+
+.now {
+  background-image: url(/img/triangles-400.jpg);
+  height: 270px;
+  margin-top: 120px;
+}
+
+
+.bu {
+  text-align: center;
+  height: 50px;
+  margin: auto;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: none;
+  color: #3983fa;
+  font-weight: 700;
+}
+
+.bu:hover {
+  background-color: cornsilk;
+}
+
+
+#work .col-md-4,
+.col-md-8 {
+  display: flex;
+  min-height: .1rem;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+
+
+
+

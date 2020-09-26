@@ -1,0 +1,279 @@
+body {
+    align-content: center;
+    justify-content: center;
+    background-color:#E5E5E5;
+    height: 90vh;
+
+} 
+
+#navbar {
+    background-color: #3983fa;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+    opacity: 20;
+  }
+  
+  .brand a img {
+    float: left;
+    padding-top: 10px;
+  
+  }
+
+  .signup-link,
+.resume-link,
+.template-link {
+
+  margin-right: 20px;
+}
+  
+  .img-comp img {
+    float: right;
+    padding-top: 80px;
+    box-sizing: border-box;
+  }
+
+  .nav-links a{
+      color: white !important;
+  }
+  
+  .nav-links {
+    float: right;
+    padding-top: 20px;
+  }
+  
+  .nav-links a:hover{
+      color: #E91E63 !important;
+  }
+
+.head h1{
+    display: inline;
+    padding-top: 20px;
+}
+
+.log-in{
+    color: blue !important;
+}
+.main {
+    width: 500px;
+    height: 590px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 90px;
+}
+h1 {
+    text-align: center;
+    width: 184px;
+    height: 29px;
+    left: 708px;
+    top: 300px;
+    padding:20px 0 0 155px;
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    
+}
+.btn-google {
+    margin-left: 125px;
+    width: 250px;
+    height: 40px;
+    /* left: 541px; */
+    /* top: 217px; */
+    margin-top: 40px;
+    background-color: #5b86e6;
+    border-radius: 4px;
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #ebf1fb ;
+    border: none;
+    
+}
+.img img {
+    width: 25px;
+    height: 25px;
+    background:white;
+    float: left;
+}
+.sign {
+    float: right;
+    padding-top: 10px;
+}
+form {
+    margin-left: 127px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+input {
+    width: 243px;
+    height: 40px;
+    border: 1px solid #727899;
+    border-radius: 5px;
+
+}
+input::placeholder {
+    padding-left: 10px;
+}
+.name {
+    margin-top: 40px;
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #000000;
+    padding-bottom: 10px;
+
+
+}
+.mail {
+    margin-top: 30px;
+}
+.btn-start {
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 0px;
+    height: 40px;
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #E65B7C;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px  #a07983 ;
+    border: none;
+   
+   
+}
+.exist-account {
+    margin-top: 40px;
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
+a {
+    text-decoration: none;
+}
+.text-mail {
+    margin-top: 40px;
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #949495;
+}
+.add {
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #000000;
+    padding-bottom: 15px;
+    
+
+}
+hr {
+    display: inline-block;
+    width: 20px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    padding-right: 10px;
+
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.navbar-nav {
+  float: right !important;
+  padding-top: 20px !important;
+  padding-left: 200px !important;
+}
+
+.navbar-nav a:hover {
+  color: #E91E63 !important;
+}
+
+
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  main{
+    width: 100%;
+  }
+}
+
+footer {
+    height: 160px;
+    background-color: #fafafb;
+  }
+  
+  footer p {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .social-links {
+    float: right;
+  }
+  
+  
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+  
+  }
+  
+  .breadcrumb{
+    background-color: #fafafb !important;
+  }
+  
+  .breadcrumb li{
+    color: black;
+    font-weight: 500;
+  }
+  
+  .breadcrumb li:hover{
+    color: #3983fa;
+  }
+  
+  .breadcrumb-item a{
+    color: black !important;
+    font-weight: 500;
+  }
+  
+  
+  .breadcrumb-item a:hover{
+    color: #3983fa !important;
+  }
+  
+  .social-links i{
+    color: #333;
+    font-size: 20px;
+  }

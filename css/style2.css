@@ -1,0 +1,169 @@
+body {
+    margin-top: -5px;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #3983fa;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+    opacity: 20;
+}
+
+.navbar-nav {
+    float: right !important;
+    padding-top: 20px !important;
+    padding-left: 200px !important;
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.navbar-nav a:hover {
+    color: #E91E63 !important;
+}
+
+.brand a img {
+    float: left;
+    padding-top: 10px;
+
+}
+
+.signup-link,
+.resume-link,
+.template-link {
+
+    margin-right: 20px;
+}
+
+.img-comp img {
+    float: right;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    float: right;
+    padding-top: 20px;
+}
+
+.nav-links a:hover {
+    color: #E91E63 !important;
+    outline-style: none;
+}
+
+h1 {
+    color: teal;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    border: 1px grey solid;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    color: honeydew;
+    border-radius: 10px;
+}
+
+.btn2 {
+    border: 1px grey solid;
+    border: ivory;
+    border-color: honeydew;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    float: right;
+    background-color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    color: honeydew;
+    border-radius: 10px;
+}
+
+footer {
+    height: 160px;
+    background-color: #fafafb;
+}
+
+footer p {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+.social-links {
+    float: right;
+}
+
+
+
+.social-links a {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+
+}
+
+.breadcrumb {
+    background-color: #fafafb !important;
+}
+
+.breadcrumb li {
+    color: black;
+    font-weight: 500;
+}
+
+.breadcrumb li:hover {
+    color: #3983fa;
+}
+
+.breadcrumb-item a {
+    color: black !important;
+    font-weight: 500;
+}
+
+
+.breadcrumb-item a:hover {
+    color: #3983fa !important;
+}
+
+.social-links i {
+    color: #333;
+    font-size: 20px;
+}

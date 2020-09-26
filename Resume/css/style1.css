@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin-top: 30px;
+    font-weight: 50;
+    
+}
+.resume{
+    font-weight: 1000;
+    color: teal;
+}
+p{
+    margin-bottom: 50px;
+}
+
+.btn2 button{
+    float: right;
+    background-color: #fe8c26;
+    font-weight: 700;
+    border-color: #fe8c26;
+    height: 40px;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    border: 1px solid grey;
+    text-transform: uppercase;
+    
+}
+
+
+.btn1 button{
+    background-color: white;
+    font-weight: 700;
+    height: 40px;
+    width: 150px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    border: 1px solid grey;
+    text-transform: uppercase;
+    padding: 4px;
+}

@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    height: 70vh;
+}
+
+
+.signup-link,
+.resume-link,
+.template-link {
+
+    margin-right: 20px;
+    color: white;
+    text-decoration: none !important;
+}
+
+.social-links a {
+    text-decoration: none !important;
+}
+
+.text h3 {
+    font-weight: 800;
+    font-size: 25px;
+    margin: 15px 0 25px;
+    text-align: center;
+}
+
+.text p{
+    text-align: center;
+    justify-content: center;
+}
+
+.text img{
+    padding-left: 80px;
+}
+
+.text h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+#navbar {
+    background-color: #3983fa;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+    opacity: 20;
+}
+
+.brand a img {
+    float: left;
+    padding-top: 10px;
+
+}
+
+.img-comp img {
+    float: right;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.nav-links {
+    float: right;
+    padding-top: 20px;
+}
+
+.nav-links a:hover {
+    color: #E91E63 !important;
+}
+
+.now {
+    background-image: url(/img/triangles-400.jpg);
+    height: 257px;
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+.now h3 {
+    font-weight: 800;
+    font-size: 30px;
+    margin: 15px 0 25px;
+    color: #fff;
+    padding-top: 70px;
+    text-align: center;
+}
+
+
+.bu {
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: none;
+    color: #3983fa;
+    font-weight: 700;
+}
+
+.bu:hover {
+    background-color: cornsilk;
+}
+
+footer {
+    height: 160px;
+    background-color: #fafafb;
+}
+
+footer p {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+.social-links {
+    float: right;
+}
+
+hr {
+    width: 100% !important;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+
+}
+
+
+.breadcrumb {
+    background-color: #fafafb !important;
+}
+
+.breadcrumb li {
+    color: black;
+    font-weight: 500;
+}
+
+.breadcrumb li:hover {
+    color: #3983fa;
+}
+
+.breadcrumb-item a {
+    color: black !important;
+    font-weight: 500;
+}
+
+
+.breadcrumb-item a:hover {
+    color: #3983fa !important;
+}
+
+.social-links i {
+    color: #333;
+    font-size: 20px;
+}
